@@ -1,0 +1,23 @@
+.container{
+  min-height: 80vh;
+}
+.header h1{
+  color:rgb(18, 70, 70)
+}
+.line{
+  height: 4px;
+  width: 80px;
+  background-color: teal;
+}
+
+input{
+border-top: 0;
+border-right: 0;
+border-left: 0;
+
+}
+
+.btn{
+  background: teal;
+  color: aliceblue;
+}

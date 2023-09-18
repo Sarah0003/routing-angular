@@ -1,0 +1,20 @@
+<div class="container text-center text-dark m-auto d-flex justify-content-center flex-column align-items-center p-5">
+  <h1>PORTFOLIO COMPONENT</h1>
+  <div class="icon d-flex justify-contenr-center align-items-center mb-5 ">
+    <div class="line me-2 bg-dark"></div>
+  <i class="icons text-dark fa-solid fa-star"></i>
+<div class="line ms-2 bg-dark"></div>
+  </div>
+
+  <div class="row gy-4">
+    <div class="col-md-4" *ngFor="let imageUrl of imageUrls">
+      <div class="avatar position-relative">
+        <div class="overlay position-absolute top-0 bottom-0 start-0 end-0 d-flex justify-content-center align-items-center rounded-3" (click)="openImage(imageUrl)">
+          <i class="text-white fa-solid fa-plus fa-6x"></i>
+        </div>
+        <img [src]="imageUrl" class="w-100 rounded-3" alt="">
+      </div>
+    </div>
+ 
+  </div>
+</div>

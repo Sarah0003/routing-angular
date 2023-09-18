@@ -1,0 +1,28 @@
+.container{
+  /* background-color: #1abc9c; */
+  min-height:100vh;
+}
+
+.line{
+  height: 4px;
+  width: 80px;
+}
+.overlay{
+  transition: all 0.5s ease-in-out;
+
+}
+.avatar:hover .overlay{
+  background: #1abc9ce8;
+}
+
+.overlay i{
+opacity:0;
+transition: all 0.5s ease-in-out;
+
+}
+
+
+
+.avatar:hover .overlay i{
+  opacity:1;
+}

@@ -1,0 +1,13 @@
+/* footer{
+  height:300px;
+} */
+
+.firstRow{
+  background-color:#262b30;
+  padding: 3rem;
+}
+.icon{
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid rgb(255, 255, 255);
+}
